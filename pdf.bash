@@ -1,7 +1,7 @@
 #!/bin/bash
-INPUT_FILE="processed_medals.csv"
-OUTPUT_HTML="medals.html"
-OUTPUT_PDF="medals.pdf"
+INPUT_FILE="Tableau des médailles.csv"
+OUTPUT_HTML="Tableau des médailles.html"
+OUTPUT_PDF="Tableau des médailles.pdf"
 
 # Générer le HTML
 echo "<html><head><title>Médailles</title></head><body>" > "$OUTPUT_HTML"
