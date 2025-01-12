@@ -15,6 +15,6 @@
 ./xlsx_2_csv_2_html.bash
 
 # Converti les fichiers HTML en PDF
-./pdf.bash
+#./pdf.bash
 
 echo "Tous les scripts ont été exécutés avec succès"
