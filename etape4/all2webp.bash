@@ -3,8 +3,8 @@
 # Script to convert images to WebP format using ImageMagick in Docker.
 
 # Define input and output directories
-input_dir="./image"
-output_dir="./images"
+input_dir="./images"
+output_dir="./images_converties"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output_dir"
