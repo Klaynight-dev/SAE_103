@@ -5,6 +5,9 @@
 # Télécharge les drapeaux dans un répertoire
 ./flag.bash
 
+# Converti toutes les images en WEBP
+./all2webp.bash
+
 # Converti les fichiers TXT en HTML
 ./txt2html.bash
 
@@ -15,6 +18,6 @@
 ./xlsx_2_csv_2_html.bash
 
 # Converti les fichiers HTML en PDF
-#./pdf.bash
+./pdf.bash
 
 echo "Tous les scripts ont été exécutés avec succès"
