@@ -22,7 +22,7 @@ done
 # Arrêter le conteneur Docker
 docker stop "${container_id}"
 
-# Préparer une chaîne pour awk
+# Préparer une chaîne pour awk++
 country_iso_map_string=""
 for key in "${!country_iso_map[@]}"; do
     country_iso_map_string+="$key=${country_iso_map[$key]} "
@@ -47,7 +47,10 @@ for csv_file in *.csv; do
             print "<meta charset=\"utf-8\">"
             print "</head>"
             print "<body>"
+            print "<h2>Tableau des médailles</h2>"
+            print "<img href=\"./logo.png\" width=\"100\" heigh=\"120\" alt=\"logo des JO de Paris 2024\">"
             print "<table border=\"1\">"
+            print "<style>table {font-size:0.3em;}</style>"
         }
         {
             print "<tr>"
